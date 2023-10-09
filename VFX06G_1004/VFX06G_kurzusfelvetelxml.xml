@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Hepimu_kurzusfelvetel >
+
+<VFX06G_kurzusfelvetel tanev="2023/2024" egyetem="ME">
+
+    <hallgato id="VFX06G.ME">
+        <nev>Gáspár Fanni</nev>
+        <szulev>2002.07.19.</szulev>
+        <szak evf="5">Gazdaságinformatikus Bsc</szak>
+    </hallgato>
+
+    <kurzusok>
+        <kurzus id="GTÜPZ121B-B" jovahagyas= "igen">
+            <kurzusnev>Pénzügytan</kurzusnev>
+            <kredit>5</kredit>
+            <hely>XXXVII.</hely>
+            <idopont>Hetfo 10:00-11:30</idopont>
+            <oktato>Dr. Bozsik Sándor</oktato>
+        </kurzus>
+
+        <kurzus id="GTÜSZ601B-B" jovahagyas="igen">
+            <kurzusnev>Számvitel</kurzusnev>
+            <kredit>5</kredit>
+            <hely>XII A3 III.em 313</hely>
+            <idopont>Szerda 12:00-13:30</idopont>
+            <oktato>Várkonyiné dr. Juhász Mária</oktato>
+        </kurzus>
+    </kurzusok>
+
+</VFX06G_kurzusfelvetel>
