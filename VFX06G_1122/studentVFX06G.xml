@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<class>
+    <student id="4444">
+        <keresztnév>Fanni</keresztnév>
+        <vezetéknév>Gáspár</vezetéknév>
+        <becenév>Fannika</becenév>
+        <kor>21</kor>
+    </student>
+
+     <student id="2323">
+        <keresztnév>Annamária</keresztnév>
+        <vezetéknév>Gyöngy</vezetéknév>
+        <becenév>GYP</becenév>
+        <kor>20</kor>
+    </student>
+
+     <student id="8844">
+        <keresztnév>Margaréta</keresztnév>
+        <vezetéknév>Csőre</vezetéknév>
+        <becenév>Marge</becenév>
+        <kor>22</kor>
+    </student>
+    
+</class>
