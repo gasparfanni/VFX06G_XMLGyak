@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ora id="1" tipus="Eloadas">
+   <targy>Pénzügytan</targy>
+   <idopont>
+      <nap>Hétfő</nap>
+      <tol>10:00</tol>
+      <ig>12:00</ig>
+   </idopont>
+   <helyszin>XXXVII ea</helyszin>
+   <oktato>Dr. Bozsik Sándor</oktato>
+   <szak>Gazdaságinformatikus</szak>
+</ora>
