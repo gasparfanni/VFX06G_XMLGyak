@@ -1,0 +1,140 @@
+{
+    "html": {
+      "head": {
+        "meta": {
+          "title": "GF_orarend"
+        },
+        "body": {
+          "table": {
+            "thead": {
+              "tr": {
+                "th": [
+                  "targy",
+                  "idopont",
+                  "helyszin",
+                  "oktato",
+                  "szak",
+                  "_id",
+                  "_tipus"
+                ]
+              }
+            },
+            "tbody": {
+              "tr": [
+                {
+                  "td": [
+                    "Pénzügytan",
+                    "Hétfő|10:00|12:00",
+                    "XXXVII ea",
+                    "Dr. Bozsik Sándor",
+                    "Gazdaságinformatikus",
+                    1,
+                    "Eloadas"
+                  ]
+                },
+                {
+                  "td": [
+                    "WEB technológiák 1.",
+                    "Hétfő|14:00|16:00",
+                    "XXX. A1/305.",
+                    "Agárdi Anita",
+                    "Gazdaságinformatikus",
+                    2,
+                    "Eloadas"
+                  ]
+                },
+                {
+                  "td": [
+                    "WEB technológiák 1.",
+                    "Hétfő|16:00|18:00",
+                    "Info II/202",
+                    "Agárdi Anita",
+                    "Gazdaságinformatikus",
+                    3,
+                    "Gyakorlat"
+                  ]
+                },
+                {
+                  "td": [
+                    "Mesterséges intelligencia",
+                    "Kedd|8:00|10:00",
+                    "XXXXII. előadó",
+                    "Dr. Fazekas Levente",
+                    "Gazdaságinformatikus",
+                    4,
+                    "Gyakorlat"
+                  ]
+                },
+                {
+                  "td": [
+                    "Adatkezelés XML-ben",
+                    "Kedd|12:00|14:00",
+                    "XXXII.",
+                    "Dr. Bednarik László",
+                    "Gazdaságinformatikus",
+                    5,
+                    "Eloadas"
+                  ]
+                },
+                {
+                  "td": [
+                    "Adatkezelés XML-ben",
+                    "Szerda|10:00|12:00",
+                    "Info I/101",
+                    "Dr. Bednarik László",
+                    "Gazdaságinformatikus",
+                    6,
+                    "Gyakorlat"
+                  ]
+                },
+                {
+                  "td": [
+                    "Számvitel",
+                    "Szerda|12:00|14:00",
+                    "XII. A3 III. em 313",
+                    "Várkonyiné dr. Juhász Mária",
+                    "Gazdaságinformatikus",
+                    7,
+                    "Eloadas"
+                  ]
+                },
+                {
+                  "td": [
+                    "Szoftvertechnológia",
+                    "Csütörtök|8:00|10:00",
+                    "XXXIII A1 magasfsz",
+                    "Dr. Mileff Péter",
+                    "Gazdaságinformatikus",
+                    8,
+                    "Előadás"
+                  ]
+                },
+                {
+                  "td": [
+                    "Mesterséges intelligencia",
+                    "Csütörtök|10:00|12:00",
+                    "I. előadó",
+                    "Dr. Fazekas Levente",
+                    "Gazdaságinformatikus",
+                    9,
+                    "Gyakorlat"
+                  ]
+                },
+                {
+                  "td": [
+                    "",
+                    "&nbsp",
+                    "&nbsp",
+                    "&nbsp",
+                    "&nbsp",
+                    "&nbsp",
+                    "&nbsp"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
