@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Szalonok_VFX06G xmlns="VFX06G">
+    <!--Karbantartó cégek-->
+    <karbantarto_ceg ceg_id="1">
+        <ceg>Ceg 1</ceg>
+        <kapcsolattarto>
+            <telefonszam>06705684589</telefonszam>
+            <nev>Kiss István</nev>
+        </kapcsolattarto>
+        <telephely>
+            <varos>Budapest</varos>
+            <iranyitoszam>1024</iranyitoszam>
+            <utca>Kossuth utca</utca>
+            <hazszam>10</hazszam>
+        </telephely>
+    </karbantarto_ceg>
+    <karbantarto_ceg ceg_id="2">
+        <ceg>Ceg 2</ceg>
+        <kapcsolattarto>
+            <telefonszam>06705684111</telefonszam>
+            <nev>Kovács Anna</nev>
+        </kapcsolattarto>
+        <telephely>
+            <varos>Budapest</varos>
+            <iranyitoszam>1132</iranyitoszam>
+            <utca>Rákospatak utca</utca>
+            <hazszam>5</hazszam>
+        </telephely>
+    </karbantarto_ceg>
+    <karbantarto_ceg ceg_id="3">
+        <ceg>Ceg 3</ceg>
+        <kapcsolattarto>
+            <telefonszam>06705684233</telefonszam>
+            <nev>Szabó István</nev>
+        </kapcsolattarto>
+        <telephely>
+            <varos>Debrecen</varos>
+            <iranyitoszam>3521</iranyitoszam>
+            <utca>Sport utca</utca>
+            <hazszam>8</hazszam>
+        </telephely>
+    </karbantarto_ceg>
+    <!--Szalonok-->
+    <szalon karbantartja="1" szalon_id="1">
+        <fonok>Nagy Éliás</fonok>
+        <neve>Szalon 1</neve>
+        <cim>
+            <iranyitoszam>1024</iranyitoszam>
+            <varos>Budapest</varos>
+            <utca_hazszam>Kossuth utca 10</utca_hazszam>
+        </cim>
+        <elerhetoseg>
+            <telefonszam>06705214787</telefonszam>
+            <email>nagyelias@gmail.com</email>
+            <facebook>nagyelias32</facebook>
+        </elerhetoseg>
+    </szalon>
+    <szalon karbantartja="2" szalon_id="2">
+        <fonok>Szalon 2</fonok>
+        <neve>Szegedi Dóra</neve>
+        <cim>
+            <iranyitoszam>1132</iranyitoszam>
+            <varos>Budapest</varos>
+            <utca_hazszam>Rákospatak utca 5</utca_hazszam>
+        </cim>
+        <elerhetoseg>
+            <telefonszam>06701112547</telefonszam>
+            <email>szegedidora@gmail.com</email>
+            <facebook>dorasz02</facebook>
+        </elerhetoseg>
+    </szalon>
+    <szalon karbantartja="3" szalon_id="3">
+        <fonok>Szalon 3</fonok>
+        <neve>Kovács Adrienn</neve>
+        <cim>
+            <iranyitoszam>3521</iranyitoszam>
+            <varos>Debrecen</varos>
+            <utca_hazszam>Sport utca 8</utca_hazszam>
+        </cim>
+        <elerhetoseg>
+            <telefonszam>06705214733</telefonszam>
+            <email>kovacsadrienn@gmail.com</email>
+            <facebook>szepsegvarazsszalon</facebook>
+        </elerhetoseg>
+    </szalon>
+    <!--Kedvezmények-->
+    <kedvezmeny kedvezmeny_id="1" vendeg_id="1">
+        <elsoIdopont>2023.05.12</elsoIdopont>
+        <!--Szolgáltatások-->
+        <szolgaltatas>Smink</szolgaltatas>
+        <szolgaltatas>Manikűr</szolgaltatas>
+    </kedvezmeny>
+    <kedvezmeny kedvezmeny_id="2" vendeg_id="2">
+        <elsoIdopont>2023.05.12</elsoIdopont>
+        <szolgaltatas>Fodrászat</szolgaltatas>
+    </kedvezmeny>
+    <kedvezmeny kedvezmeny_id="3" vendeg_id="3">
+        <elsoIdopont>2023.05.12</elsoIdopont>
+        <szolgaltatas>Arckezelés</szolgaltatas>
+        <szolgaltatas>Manikűr</szolgaltatas>
+    </kedvezmeny>
+    <szolgaltatas szolgaltatas_id="1">
+        <tipus>Smink</tipus>
+        <ar>15000</ar>
+        <idotartam>60</idotartam>
+    </szolgaltatas>
+    <szolgaltatas szolgaltatas_id="2">
+        <tipus>Fodrászat</tipus>
+        <ar>25000</ar>
+        <idotartam>90</idotartam>
+    </szolgaltatas>
+    <szolgaltatas szolgaltatas_id="3">
+        <tipus>Manikűr</tipus>
+        <ar>8000</ar>
+        <idotartam>45</idotartam>
+    </szolgaltatas>
+    <!--Vendégek-->
+    <vendeg vendeg_id="1">
+        <telefonszam>06301234567</telefonszam>
+        <email>kovacsnora@gmail.com</email>
+        <fizetett>25000</fizetett>
+        <nev>Kovács Nóra</nev>
+    </vendeg>
+    <vendeg vendeg_id="2">
+        <telefonszam>06705555555</telefonszam>
+        <email>szabo.andras@gmail.com</email>
+        <nev>Szabó András</nev>
+    </vendeg>
+    <vendeg vendeg_id="3">
+        <telefonszam>06708887777</telefonszam>
+        <email>molnar.rita@gmail.com</email>
+        <fizetett>12000</fizetett>
+        <nev>Molnár Rita</nev>
+    </vendeg>
+    <!--Kért szolgáltatás több-több kapcsolat-->
+    <kert_szolgaltatas ksz_id="3" szolgaltatas_id="2" vevo_id="1">
+        <datum>2023-05-15</datum>
+    </kert_szolgaltatas>
+    <kert_szolgaltatas ksz_id="1" szolgaltatas_id="1" vevo_id="3">
+        <datum>2023-05-15</datum>
+    </kert_szolgaltatas>
+    <kert_szolgaltatas ksz_id="2" szolgaltatas_id="3" vevo_id="2">
+        <datum>2023-05-15</datum>
+    </kert_szolgaltatas>
+    <!--Kérhető szolgáltatások több-több kapcsolat-->
+    <kerheto_szolgaltatas szalon_id="2" szolgaltatas_id="1"/>
+    <kerheto_szolgaltatas szalon_id="1" szolgaltatas_id="3"/>
+    <kerheto_szolgaltatas szalon_id="3" szolgaltatas_id="2"/>
+</Szalonok_VFX06G>
